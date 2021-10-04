@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matkaklubi kontakt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="uus.css">
+    <script src="kontakt.js"></script>
+</head>
+<body>
+    <div class="paissektsioon">
+        <div class="container">
+            <div class="row pais">
+    <div class="col-8 col-md-4 pais-logoala">
+      <div class="pais-logo">
+      </div>
+      <div class="pais-nimi">HIKING CLUB</div>
+    </div>
+    <div class="col-4 d-md-none">
+      <button type="button" class="btn btn-outline-secondary">--</button>
+    </div>
+    <div class="col-md-8 pais-menuu">
+        <ul class="d-none d-md-flex flex-column flex-md-row">
+          <li><a href="HOME">HOME</a></li>
+          <li><a href="UPCOMING TREKS">UPCOMING TREKS</a></li>
+          <li><a href="TREK FOR FAMILY">TREK FOR FAMILY</a></li>
+          <li><a href="CONTACT US">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+        <form action="#">
+            <div class="form-group">
+            <label for="nimi">Sinu nimi</label>
+            <input type="text" class="form-control" id="nimi" name="nimi">
+        </div>
+        <div class="form-group">
+            <label for="email">Sinu e-mail</label>
+            <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="markus">Märkus</label>
+            <textarea name="markus" id="markus" class="form-control" cols="30" rows="5"></textarea>
+        </div>
+        <button onclick="return saadaVorm()"  class="btn btn-Default">Saada</button>
+    </form>
+</div>
+
+</body>
+</html>

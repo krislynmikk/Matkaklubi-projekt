@@ -1,0 +1,164 @@
+.logopilt img {
+    margin-top: 37px;
+    margin-left: 72px;
+    width: 67px;
+    height: 64px;
+    position: absolute;
+}
+
+h3 {
+    font-size: 33px;
+    font-family: 'Montserrat-ExtraBold' , sans-serif;
+    margin-top: 32px;
+    margin-left: 157px;
+    width: 126px;
+    height: 75px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+}
+nav.menu {
+
+    margin-left: 609px;
+    width: 751px;
+    height: 20px;
+    text-align: right;
+    letter-spacing: 2.67px;
+    color: #000000;
+    opacity: 1;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat-Bold' , sans-serif;
+    padding-right: 60px;
+    padding-top: 50px;
+
+
+}
+
+header {
+    background: transparent url(fotod/Hills@2x.png) 0% 0% no-repeat padding-box;
+    top: -201.7600860595703px;
+    left: -20px;
+    width: 1440px;
+    height: 778px;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+body {
+
+    width: 1440px;
+    height: 3132px;
+    background: white 0% 0% no-repeat padding-box;
+    max-width: 1440px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+a {
+    color: black;
+    font-weight: bold;
+    
+
+}
+.tekst {
+    margin-top: 270px;
+    margin-left: 74px;
+    width: 575px;
+    height: 276px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    font-weight: bolder;
+    
+
+}
+h2 {
+    font-size: 39.57px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: bolder;
+}
+h1 {
+    font-size: 74.39px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: bolder;
+
+}
+h4 {
+    font-size: 20.83px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: bolder;
+    width: 477px;
+    text-align: left;
+}
+button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 247px;
+    height: 58px;
+    background: #0B0B0B 0% 0% no-repeat padding-box;
+    border: none;
+  }
+.button {
+    margin-top: 599px;
+    width: 202px;
+    height: 15px;
+    text-align: center;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'MontserratBold', sans-serif;
+    line-height: 29.17px;
+    font-size: 12.5px;
+    font-weight: bolder;
+  }
+.round {
+    height:914.06px;
+    width:913.95px;
+    border-radius:50%;
+    background-image: url(fotod/Image/Image@2x.png) ; 
+    margin-top: -675px;
+    margin-left: 750px;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: 102;
+}
+
+.vari {
+    background:transparent url(fotod/Shadow/Shadow@2x.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: bottom;
+    width: 1091px;
+    height: 89px;
+    margin-left: 685px;
+    margin-top: -50px;
+  
+}
+.liblikas {
+    background:transparent url(fotod/Butterfly.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: bottom;
+    width: 75px;
+    height: 66px;
+    margin-left: 550px;
+    margin-top: -780px;
+}
+.liblikas2 {
+    background:transparent url(fotod/Butterfly1.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: bottom;
+    width: 60px;
+    height: 32px;
+    margin-left: 32px;
+    margin-top: 47px;
+}
+.ring {
+    overflow: hidden;
+}

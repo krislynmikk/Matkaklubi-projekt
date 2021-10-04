@@ -1,0 +1,161 @@
+
+.paissektsioon {
+    background: transparent url('./fotod/Hills@2x.png') 0% 0% no-repeat padding-box;
+
+    width: 100%;
+    height: 980px;
+}
+
+@media screen and (min-width: 1400px) {
+    .paissektsioon {
+        background: transparent url('./fotod/Hills@2x.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: bottom;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pealdis-pilt-ymbris {
+        display: block;
+        width: 50%;
+    } 
+}
+.pais {
+    padding-top: 37px;
+}
+.pealdis-pilt .matkaja {
+
+    width: 914px;
+    height: 914px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+    
+}
+.pealdis-pilt .vari{
+
+    width: 1091px;
+    height: 87px;
+    margin-left: -144px;
+    margin-top: -37px;
+    
+}
+.pealdis-pilt {
+    overflow: hidden;
+
+}
+.pealdis-pilt-ymbris {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .pealdis-pilt-ymbris {
+        display: block;
+        width: 50%;
+    }
+}
+.pealdis {
+    display: flex;
+    color: black;
+    text-transform: uppercase;
+
+}
+.pealdis-pealkirjad {
+    padding-top: 231px;
+}
+.pealdis h1 {
+
+    font-size: 74.39px;
+    font-weight: 800;
+    margin-left: -12px;
+}
+.pealdis h2 {
+
+    font-size: 39.57px;
+    font-weight: 800;
+}
+.pealdis h3 {
+
+    font-size: 20.83px;
+    font-weight: 800;
+    line-height: 30px;
+    height: 93px;
+}
+.pais-logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('./fotod/klubilogo.png.png\ koopia');
+    background-size: cover;
+    background-repeat: none;
+    font-weight: 800;
+    font-size: 33px;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+}
+
+.pais-nimi {
+    font-weight: 800;
+    width: 126px;
+    height: 75px;
+    font-size: 33px;
+    letter-spacing: 0px;
+}
+.pais-menuu a {
+
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 16.67px;
+    letter-spacing: 2.67px;
+    font-weight: bold;
+    margin-left: auto;
+    color: #000000;
+}
+
+.pais-logoala {
+    display: flex;
+}
+.pais-menuu ul {
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 751px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 95%;
+    } 
+} 
+.liblikas1 {
+    height: 32px;
+    margin-left: -50px;
+    margin-top: 17px;
+
+
+}
+.liblikas2 {
+    height: 66px;
+    margin-top: -45px;
+    margin-left: 110px;
+
+}
+.rida1 {
+    display: flex;
+}
+.rida2 {
+    display: flex;
+
+}
+.button {
+    height: 58px;
+    width: 247px;
+    text-align: center;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'MontserratBold', sans-serif;
+    line-height: 30px;
+    font-size: 12.5px;
+    font-weight: bolder;
+    background-color: black;
+    border: none;
+  }
+
